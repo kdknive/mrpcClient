@@ -4,7 +4,6 @@
             <p>Komponen</p>
             <p>Nama Komponen</p>
             <p>Harga</p>
-            <p>Marketplace</p>
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>CPU</p>
@@ -16,7 +15,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Motherboard</p>
@@ -28,7 +26,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Memory</p>
@@ -40,7 +37,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>  
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Graphics Card</p>
@@ -52,7 +48,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Power Supply</p>
@@ -64,7 +59,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Case</p>
@@ -76,7 +70,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div> 
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Hard Drive 1</p>
@@ -88,7 +81,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div> 
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Hard Drive 2</p>
@@ -100,7 +92,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div> 
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Hard Drive 3</p>
@@ -112,7 +103,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div> 
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Keyboard</p>
@@ -124,7 +114,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Mouse</p>
@@ -136,7 +125,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Monitor</p>
@@ -148,7 +136,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>CPU Cooler</p>
@@ -160,7 +147,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Case Fan</p>
@@ -172,7 +158,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Wireless Network Card</p>
@@ -184,7 +169,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Wired Network Card</p>
@@ -196,7 +180,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Optical Drive</p>
@@ -208,7 +191,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Sound Card</p>
@@ -220,7 +202,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Speakers</p>
@@ -232,7 +213,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Headphones</p>
@@ -244,7 +224,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>UPS</p>
@@ -256,7 +235,6 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>Thermal Paste</p>
@@ -268,11 +246,9 @@
                     </select>
             </div>
             <p>Rp.x.xxx.xxx</p>
-            <button @click="() => TogglePopup('buttonTrigger')" class="beli-btn">Beli Sekarang</button> 
         </div>
     </div>
         <button  @click="() => ToggleSave('buttonTrigger')" class="saveBuild-btn text-black w-full h-12 bg-green1 my-5 text-center inline-block text-xl cursor-pointer ">Save Build</button> 
-        <Market v-if="popupTriggers.buttonTrigger" :TogglePopup="() => TogglePopup('buttonTrigger')" ></Market>
         <SavePop v-if="saveTriggers.buttonTrigger" :ToggleSave="() => ToggleSave('buttonTrigger')" ></SavePop>
 </template>
 
@@ -285,16 +261,7 @@ export default{
 </script>
 
 <script setup>
-import Market from './Market.vue'
 import SavePop from './SavePop.vue'
-
-const popupTriggers = ref({
-    buttonTrigger:false
-});
-
-const TogglePopup = (trigger) => {
-    popupTriggers.value[trigger] = !popupTriggers.value[trigger]
-}
 
 const saveTriggers = ref({
     buttonTrigger:false
@@ -308,7 +275,7 @@ const ToggleSave = (trigger) => {
 <style scoped>
 
 .simulasi-container-horizontal{
-    grid-template-columns: 20% 40% 20% 20%;
+    grid-template-columns: 20% 60% 20%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -330,35 +297,15 @@ const ToggleSave = (trigger) => {
 
 .simulasi-container-horizontal{
     display: grid;
-    grid-template-columns: 20% 40% 20% 20%;
+    grid-template-columns: 20% 60% 20%;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     /* font-size: 18px; */
     text-align: left;
-    margin: 0;
-    padding: 0;
+    margin: 1rem 0;
+    padding: 3px 0;
     vertical-align: middle;
     align-items: center;
 }
-
-.beli-btn{
-    border: none;
-    color: black;
-    width: 100%;
-    height: 70%;
-    background-color: #02F39B;
-    margin: 1rem 0;
-    padding: 3px 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    /* font-size: 20px; */
-}
-
-.beli-btn:hover, .saveBuild-btn:hover{
-    background-color: #00B570;
-}
-
 </style>
