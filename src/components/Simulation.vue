@@ -37,6 +37,16 @@ import Footer from './Footer.vue'
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
 </script>
 
+<script>
+
+export default{
+        mounted () {
+        window.scrollTo(0, 0)
+    }
+}
+
+</script>
+
 <style>
 body {
     background-image: url(../assets/SimulatorBG.png);
