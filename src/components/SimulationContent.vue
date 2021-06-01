@@ -5,6 +5,9 @@
             <p>Nama Komponen</p>
             <p>Harga</p>
         </div>
+        <!-- gw tambahin yg di bawah comment ini -->
+        <form>
+        <!-- gw tambahin yg di atas comment ini -->    
         <div class="simulasi-container-horizontal text-xs lg:text-xl">
             <p>CPU</p>
             <div class="komp-selection">
@@ -247,13 +250,19 @@
             </div>
             <p>Rp.x.xxx.xxx</p>
         </div>
+        <!-- gw tambahin yg di bawah comment ini -->
+        <input type="text" placeholder="Type Your Build's Name Here..." class="text-white outline-none inline-block text-base md:text-xl align-middle relative w-full mt-10 px-5 py-4 bg-loginB border-solid border-green1 border-2 rounded-3xl">
+        <button @click="$router.push('/Save')" type="submit" class="save-btn border-none text-black w-full my-10 px-2 py-4 font-bold text-base md:text-xl text-center inline-block rounded-3xl bg-green1 cursor-pointer">Save</button>
+        </form>
+        <!-- gw tambahin yg di atas comment ini -->
     </div>
-        <button  @click="() => ToggleSave('buttonTrigger')" class="saveBuild-btn text-black w-full h-12 bg-green1 my-5 text-center inline-block text-xl cursor-pointer ">Save Build</button> 
-        <SavePop v-if="saveTriggers.buttonTrigger" :ToggleSave="() => ToggleSave('buttonTrigger')" ></SavePop>
+        
+        <!-- <button  @click="() => ToggleSave('buttonTrigger')" class="saveBuild-btn text-black w-full h-12 bg-green1 my-5 text-center inline-block text-xl cursor-pointer ">Save Build</button> 
+        <SavePop v-if="saveTriggers.buttonTrigger" :ToggleSave="() => ToggleSave('buttonTrigger')" ></SavePop> -->
 </template>
 
 <script>
-import { ref } from 'vue'
+// import { ref } from 'vue'
 
 export default{
     
@@ -261,15 +270,15 @@ export default{
 </script>
 
 <script setup>
-import SavePop from './SavePop.vue'
+// import SavePop from './SavePop.vue'
 
-const saveTriggers = ref({
-    buttonTrigger:false
-});
+// const saveTriggers = ref({
+//     buttonTrigger:false
+// });
 
-const ToggleSave = (trigger) => {
-    saveTriggers.value[trigger] = !saveTriggers.value[trigger]
-}
+// const ToggleSave = (trigger) => {
+//     saveTriggers.value[trigger] = !saveTriggers.value[trigger]
+// }
 </script>
 
 <style scoped>
